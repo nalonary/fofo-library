@@ -384,3 +384,22 @@ Thanks for checking out my library.
 
 **Have fun making stuff! ❤️**
 
+### Prerequisites
+Because fofo is a hardware-accelerated engine, it relies on SDL3 to talk to your computer's graphics card. You must install SDL3 and SDL3_image before compiling!
+
+**For Linux (Ubuntu/Debian):**
+Run these commands in your terminal to install the required libraries:
+sudo apt-get update
+sudo apt-get install libsdl3-dev libsdl3-image-dev
+
+**For MacOS:**
+Using Homebrew, run:
+brew install sdl3 sdl3_image
+
+**For Windows:**
+We recommend using MSYS2 or vcpkg to install SDL3, or downloading the pre-compiled developer binaries directly from the official SDL GitHub page.
+
+**How to Compile:**
+Once installed, compile your game using gcc and pkg-config:
+gcc main.c $(pkg-config --cflags --libs sdl3 sdl3-image) -o mygame
+
