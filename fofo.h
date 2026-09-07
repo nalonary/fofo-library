@@ -6,8 +6,7 @@
 #include <stdlib.h>
 #include <stdint.h>
 #include <string.h>
-#include <SDL3_image/SDL_image.h>
-#include "cat.h"
+
 
 #define pressed 1
 #define not_pressed 0
