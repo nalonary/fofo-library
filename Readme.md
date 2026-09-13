@@ -34,11 +34,12 @@ int main()
     while (fofo_running)
     {
         fill_screen(black);
+        events();
 
         fofo_update();
     }
 
-    fofo_exit();
+    fofo_quit();
 }
 ```
 
