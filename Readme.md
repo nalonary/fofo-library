@@ -98,7 +98,9 @@ This is important when making anything that moves or changes on the screen.
 For example, you can clear the previous frame with `fill_screen()` and then draw everything in its new position before calling `fofo_update()`.
 
 **8. `fofo_exit()`**
+finish the loop so use it inside the loop with if statement or something.
 
+**9. `fofo_quit`()**
 Closes the fofo window and cleans things up when your program finishes.
 
 ---
